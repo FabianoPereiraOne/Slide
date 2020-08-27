@@ -1,0 +1,91 @@
+body{
+    overflow: hidden;
+    background-color: rgba(202, 255, 10, 0.589);
+}
+main  #conteiner{
+    width: 1000px;
+    height: 560px;
+    border: 2px solid black;
+    position: absolute;
+    top: 20px;
+    left: 15%;
+}
+#barra{
+    width: 1000px;
+    border-top: none;
+    border: 2px solid black;
+    height: 9px;
+    position: absolute;
+    left: 15%;
+    top: 580px;
+}
+#sub-barra{
+    background-color: rgb(255, 0, 0);
+    height: 8px;
+    position: absolute;
+    top: 2px;
+    left: -1px;
+}
+
+footer{
+    background-color: #0480aa;
+    width: 101%;
+    height: 70px;
+    position: absolute;
+    top: 90%;
+    left: -5px;
+    border-top: 2px solid black;
+}
+#div-button{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+.button{
+    background-color: rgb(243, 103, 10);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+    box-shadow: 1px 3px 0px black;
+    cursor: pointer;
+    outline: none;
+}
+#buttonV{
+    position: absolute;
+    left: 45%;
+    top: 20px;
+}
+#buttonP{
+    position: absolute;
+    left: 55%;
+    top: 20px;
+}
+#buttonV:active{
+    top: 22px;
+}
+#buttonP:active{
+    top: 22px;
+}
+#auto{
+    position: absolute;
+    top: 30%;
+    width: 50px;
+    left: 50.5%;
+    background-color: green;
+    cursor: pointer;
+    border: none;
+    padding-block-end: 5px;
+    text-align: center;
+    color:white;
+    text-shadow: 1px solid black;
+    padding-top: 3px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 0px black;
+    outline: none;
+}
+#auto:active{
+    top: 22px;
+}
